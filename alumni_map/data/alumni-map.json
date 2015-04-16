@@ -1,0 +1,367 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 1,
+        "name": "Will Breitkreutz",
+        "employer": "U.S. Army Corps of Engineers",
+        "address": "601 E. 12th Street, Kansas City, MO",
+        "card": "images/willbreitkreutz.jpg",
+        "pic": "images/willbreitkreutzpic.jpg",
+        "twitter": "willbreitkreutz",
+        "marker-color": "#A80FFF",
+        "marker-size": "medium"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.57619190216064,
+          39.09899373588267
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 2,
+        "name": "Tracy Brown",
+        "employer": "U.S. Army Corps of Engineers",
+        "address": "601 E. 12th Street, Kansas City, MO",
+        "card": "",
+        "pic": "",
+        "twitter": "",
+        "marker-color": "#A80FFF",
+        "marker-size": "medium"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.57606315612793,
+          39.09902704064884
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 3,
+        "name": "Mike Dulin",
+        "employer": "U.S. Army Corps of Engineers",
+        "address": "601 E. 12th Street, Kansas City, MO",
+        "card": "",
+        "pic": "",
+        "marker-color": "#A80FFF",
+        "marker-size": "medium"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.57632064819336,
+          39.09902704064884
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 4,
+        "name": "Jason Sweet",
+        "employer": "Stantec",
+        "address": "Overland Park, KS",
+        "card": "",
+        "pic": "",
+        "marker-color": "#A80FFF",
+        "marker-size": "medium"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.66456532478333,
+          38.928425751910225
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 5,
+        "name": "Patricia Solis",
+        "employer": "Association of American Geographers",
+        "address": "1710 Sixteenth Street NW, Washington DC ",
+        "card": "images/patriciasolis.jpg",
+        "pic": "images/patriciasolispic.jpg",
+        "marker-color": "#A80FFF",
+        "marker-size": "medium"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0357894897461,
+          38.91314203126183
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 6,
+        "name": "Chris Welchhans",
+        "employer": "Bartlett & West",
+        "address": "1200 SW Executive Dr. Topeka, KS",
+        "card": "",
+        "pic": "",
+        "marker-color": "#A80FFF",
+        "marker-size": "medium"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.7682728767395,
+          39.04396111713917
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 7,
+        "name": "Jake George",
+        "employer": "",
+        "address": "",
+        "card": "",
+        "pic": "",
+        "marker-color": "#A80FFF",
+        "marker-size": "medium"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.69367241859436,
+          37.642960033870644
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 8,
+        "name": "Brock Emmert",
+        "employer": "",
+        "address": "",
+        "card": "",
+        "pic": "",
+        "marker-color": "#A80FFF",
+        "marker-size": "medium"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.76833724975586,
+          39.044402748258534
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 9,
+        "name": "Dale E. Peterson",
+        "employer": "",
+        "address": "",
+        "card": "",
+        "pic": "",
+        "marker-color": "#A80FFF",
+        "marker-size": "medium"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.04041242599487,
+          32.89827239822428
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 10,
+        "name": "Marvin Bush",
+        "employer": "",
+        "address": "",
+        "card": "",
+        "pic": "",
+        "marker-color": "#A80FFF",
+        "marker-size": "medium"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.67664861679076,
+          39.046669189050185
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 11,
+        "name": "Greg Thompson",
+        "employer": "",
+        "address": "",
+        "card": "",
+        "pic": "",
+        "marker-color": "#A80FFF",
+        "marker-size": "medium"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.98354911804198,
+          39.87147428383707
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 12,
+        "name": "Kenny Legleiter",
+        "employer": "",
+        "address": "",
+        "card": "",
+        "pic": "",
+        "marker-color": "#A80FFF",
+        "marker-size": "medium"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.84622001647949,
+          39.6716857502388
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 13,
+        "name": "Brian Parr",
+        "employer": "",
+        "address": "",
+        "card": "",
+        "pic": "",
+        "marker-color": "#A80FFF",
+        "marker-size": "medium"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.58129882812499,
+          39.091166679581626
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 14,
+        "name": "Zac Eddy",
+        "employer": "",
+        "address": "",
+        "card": "",
+        "pic": "",
+        "marker-color": "#A80FFF",
+        "marker-size": "medium"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.74923706054688,
+          37.99985736946677
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 15,
+        "name": "Rorik Peterson",
+        "employer": "",
+        "address": "",
+        "card": "",
+        "pic": "",
+        "marker-color": "#A80FFF",
+        "marker-size": "medium"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.68545436859131,
+          38.85504891242273
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 16,
+        "name": "Brian Dieker",
+        "employer": "",
+        "address": "",
+        "card": "",
+        "pic": "",
+        "marker-color": "#A80FFF",
+        "marker-size": "medium"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.76821386814117,
+          39.04428192492476
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 17,
+        "name": "James Janke",
+        "employer": "",
+        "address": "",
+        "card": "",
+        "pic": "",
+        "marker-color": "#A80FFF",
+        "marker-size": "medium"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.6202392578125,
+          44.8688879390827
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 18,
+        "name": "Roberta Dierks",
+        "employer": "",
+        "address": "",
+        "card": "",
+        "pic": "",
+        "marker-color": "#A80FFF",
+        "marker-size": "medium"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.68478918075562,
+          38.92784985490067
+        ]
+      }
+    }
+  ]
+}
