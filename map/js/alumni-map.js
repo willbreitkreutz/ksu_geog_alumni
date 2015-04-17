@@ -35,7 +35,7 @@ function placeMarkers(alumni, filter){
 						searchString = alum.name;
 						break;
 				}
-				searchString = searchString.toLowerCase();	
+				searchString = searchString.toLowerCase();
 			}else{
 				var searchString = alum.name + ' ' + alum.employer + ' ' + alum.address;
 				searchString = searchString.toLowerCase();
@@ -44,17 +44,17 @@ function placeMarkers(alumni, filter){
 				if(alum.lat&&alum.lng){
 					addToMap(alum);
 				}else{
-					getLocationFromGoogle(alum,createMarkers);	
+					getLocationFromGoogle(alum,createMarkers);
 				}
 			}
 		}else{
 			if(alum.lat&&alum.lng){
 				addToMap(alum);
 			}else{
-				getLocationFromGoogle(alum,createMarkers);	
+				getLocationFromGoogle(alum,createMarkers);
 			}
 		}
-	}	
+	}
 }
 
 function addToMap(alum){
@@ -80,19 +80,19 @@ function getLocationFromGoogle(alum, callback){
     	}
     }).done(function(data){
     	callback(data, alum);
-    });  
+    });
 }
 
 function createMarkers(data, alum){
 	var geom = data.results[0].geometry.location;
-	
+
 	for(var i=0;i<alumniData.data.length;i++){
 	    if(alumniData.data[i].id===alum.id){
 	        alumniData.data[i].lat = geom.lat;
 	        alumniData.data[i].lng = geom.lng;
 	    }
 	}
-	
+
 	var marker = L.marker(new L.LatLng(geom.lat, geom.lng), {
 	    id:alum.id,
 		name:alum.name,
@@ -107,7 +107,7 @@ function createMarkers(data, alum){
 }
 
 $('#search').keyup(search);
-    
+
 function search() {
 	$('#info').fadeOut(200);
     var searchString = $('#search').val().toLowerCase();
@@ -117,40 +117,40 @@ function search() {
 
 function markerClick(e) {
     $('#info').empty();
-				    
+
 	var feature = e.target.options;
-	
+
 	$('#info').fadeIn(400,function(){
-		
+
 	    var info = '';
-	    
-	    if(feature.pic){
-	    	info = info + '<img class="head-shot" src="' + feature.pic + '" />';
-	    }
+
+	    // if(feature.pic){
+	    // 	info = info + '<img class="head-shot" src="' + feature.pic + '" />';
+	    // }
 	    
 	    if(feature.name){
 	    	info = info + '<p class="alumni-name">' + feature.name + '</p>';
 	    }
-	    
+
 	    if(feature.employer){
 	    	info = info + '<p>' + feature.employer + '</p>';
 	    }
-	    
+
 	    // if(feature.twitter){
 	    	// info = info + '<p class="twitter-handle"><a href="https://twitter.com/'+feature.twitter+'" class="twitter-follow-button" data-show-count="false">Follow me on twitter</a></p>'+
 						  // '<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?"http":"https";if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document, "script", "twitter-wjs");</script>';
 	    // }
-	    
+
 	    if(feature.twitter){
 	        info = info + '<iframe src="//platform.twitter.com/widgets/follow_button.html?screen_name='+feature.twitter+'" scrolling="no" frameborder="0" width="100%" height="21" allowtransparency="true" style="border:none;margin-top:4px;" data-show-count="false"></iframe>';
 	    }
-	    
+
 	    if(feature.card){
 	    	info = info + '<img class="bus-card" src="' + feature.card + '" />';
 	    }
-	    
-		
-	    $('#info').append(info);	
+
+
+	    $('#info').append(info);
 	});
 };
 
